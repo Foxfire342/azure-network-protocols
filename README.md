@@ -37,7 +37,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <p>
 To start this tutorial you must have a Microsoft Azure account. Please sign up for Microsoft Azure if you haven't already. Once you have signed up with Azure, and created a tenant and subscription group, you need to create a resource group.
-To do this type in resource group in the search bar on the dashboard and go to the resource group page. Once there click the "create resource group" button and start filling out the details.
+To do this type in resource group in the search bar on the dashboard and go to the resource group page. Once there click the "create resource group" button and start filling out the details. For the purpose of this tutorial, we will be naming our resource group Net-tutorial01 but you can name yours whatever you would like. Once you give the resource group a name you can skip the Tags tab and click the "review+create" tab to get your resource group created.
 </p>
 <br />
 
