@@ -45,7 +45,7 @@ To do this type in resource group in the search bar on the dashboard and go to t
 <img src="https://i.imgur.com/WeIjDgW.png" height="80%" width="80%" alt="Virtual Machine Creation"/>
 </p>
 <p>
-  Once the resource group has been created then we will need to create the two virtual machines that are needed for this tutorial. In order to do this, type "virtual machines" into the Azure search bar and head to the virtual machines page. Once there click the "Create" button and start creating your first VM. For this first virtual machine, we will need to have a Windows OS, so 
+  Once the resource group has been created then we will need to create the two virtual machines that are needed for this tutorial. In order to do this, type "virtual machines" into the Azure search bar and head to the virtual machines page. Once there click the "Create" button and start creating your first VM. For this first virtual machine, we will need to select our Resource Group ( which we created in the prior step), give our VM a name ( I choose VM1 but you can name it whatever you would like), select your Region( depending on where you are located, for example, if you live in New York City you would probably want to choose East US), choose your Image/ OS ( we want a Windows OS and so we would select Windows 10 Pro, version 22HS - x64 Gen 2), select a size (this involves deciding virtual CPU and RAM resources and selecting Standard_E2s_v3(2 vpcus with 16GiB of memory) should be sufficient enough) and then lastly create your admin account by creating a username and password. You can use the default options for inbound port rules, availability zones, and availability options. Once you have filled out the basics page you then head over to the Networking tab up top.
 </p>
 <br />
 
