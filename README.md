@@ -53,7 +53,7 @@ To do this type in resource group in the search bar on the dashboard and go to t
 <img src="https://i.imgur.com/w4FNSya.png" height="80%" width="80%" alt="Networking Tab on Virtual Machine Page"/>
 </p>
 <p>
-Once we are on the networking page, a virtual network, subnet, and public IP address should be already created for us by default. The Subnet IP will be important later because this is what we will use to communicate with the Linux VM that we will be creating in the next step. It will also be essential for us to select the same virtual network (VM-1 -vnet or in your case the name maybe different) for the second VM to ensure that both VMs are operating under the same umbrella virtual network.
+Once we are on the networking page, a virtual network, subnet, and public IP address should be already created for us by default. The Subnet IP will be important later because this is what we will use to communicate with the Linux VM that we will be creating in the next step. It will also be essential for us to select the same virtual network (VM-1 -vnet or in your case the name may be different) for the second VM to ensure that both VMs are operating under the same umbrella virtual network. After reviewing this page, click "review+create" at the bottom to have your first virtual machine created.
 </p>
 <br />
 
@@ -61,7 +61,7 @@ Once we are on the networking page, a virtual network, subnet, and public IP add
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now that the first virtual machine has been created we can move on to creating our second virtual machine. We would mimic the same steps as above with some minor adjustments.
 </p>
 <br />
 
