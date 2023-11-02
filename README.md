@@ -25,9 +25,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
+- Create a resource group in Azure that will contain the virtual network and subnet networks
+- Create two virtual machines in the resource group that will run Windows OS and Linux respectively 
+- Download Wire Shark to analyze protocol traffic between the two virtual machines
 - Step 4
 
 <h2>Actions and Observations</h2>
