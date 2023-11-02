@@ -61,7 +61,7 @@ Once we are on the networking page, a virtual network, subnet, and public IP add
 <img src="https://i.imgur.com/5TKwrzD.png" height="80%" width="80%" alt="Second Virtual Machine Creation"/>
 </p>
 <p>
-Now that the first virtual machine has been created we can move on to creating our second virtual machine. We would mimic the same steps as above with some minor adjustments. Because we will be using a Linux OS for this virtual machine we will select Ubuntu Server 20.04 LTS - x64 Gen2 as the Image. Also, we will need to give this virtual machine a different name ( we chose VM2 but you can name this VM whatever you like).
+Now that the first virtual machine has been created we can move on to creating our second virtual machine. We would mimic the same steps as above with some minor adjustments. Because we will be using a Linux OS for this virtual machine we will select Ubuntu Server 20.04 LTS - x64 Gen2 as the Image. Also, we will need to give this virtual machine a different name ( we chose VM2 but you can name this VM whatever you like). As you head to the bottom of the page you will notice that the authentication type defaulted to SSH public key, we will want to select "password" instead and create a username and password for this VM. After this is done head over to the networking tab.
 </p>
 <br />
 
