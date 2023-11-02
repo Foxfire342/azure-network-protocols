@@ -69,7 +69,7 @@ Now that the first virtual machine has been created we can move on to creating o
 <img src="https://i.imgur.com/TQPxZe6.png" height="80%" width="80%" alt="Networking Tab Two on Virtual Machine Page"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+On this page, we just need to confirm that the virtual network is the same as the virtual network that was chosen for the first virtual machine (in this case VM1 -vnet). We will also leave the subnet at the default option and click "review+ create" at the bottom of the page. Once we reach the validation page we will select "create" and our second virtual machine will be spun up.
 </p>
 <br />
 
