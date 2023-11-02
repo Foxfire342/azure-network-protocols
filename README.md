@@ -53,15 +53,15 @@ To do this type in resource group in the search bar on the dashboard and go to t
 <img src="https://i.imgur.com/w4FNSya.png" height="80%" width="80%" alt="Networking Tab on Virtual Machine Page"/>
 </p>
 <p>
-Once we are on the networking page, a virtual network, subnet, and public IP address should be already created for us by default. The Subnet IP will be important later because this is what we will use to communicate with the Linux VM that we will be creating in the next step. It will also be essential for us to select the same virtual network (VM-1 -vnet or in your case the name may be different) for the second VM to ensure that both VMs are operating under the same umbrella virtual network. After reviewing this page, click "review+create" at the bottom to have your first virtual machine created.
+Once we are on the networking page, a virtual network, subnet, and public IP address should be already created for us by default. The Subnet IP will be important later because this is what we will use to communicate with the Linux VM that we will be creating in the next step. It will also be essential for us to select the same virtual network (VM-1 -vnet or in your case the name may be different) for the second VM to ensure that both VMs are operating under the same umbrella virtual network. After reviewing this page, click "review+create" at the bottom which should take you to the validation page. On the validation page click "create" at the bottom and your first VM will begin being spun up.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5TKwrzD.png" height="80%" width="80%" alt="Second Virtual Machine Creation"/>
 </p>
 <p>
-Now that the first virtual machine has been created we can move on to creating our second virtual machine. We would mimic the same steps as above with some minor adjustments.
+Now that the first virtual machine has been created we can move on to creating our second virtual machine. We would mimic the same steps as above with some minor adjustments. Because we will be using a Linux OS for this virtual machine we will select Ubuntu Server 20.04 LTS - x64 Gen2 as the Image. Also, we will need to give this virtual machine a different name ( we chose VM2 but you can name this VM whatever you like).
 </p>
 <br />
 
