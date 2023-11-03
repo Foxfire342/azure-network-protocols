@@ -74,18 +74,18 @@ On this page, we just need to confirm that the virtual network is the same as th
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/2fSbjTc.png" height="80%" width="80%" alt="Remote Desktop"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+With the second virtual machine created our initial setup is complete. Our next step is to use our remote desktop program to remote into our first virtual machine with the Windows OS. Windows users will already have remote desktop installed but for Mac users, you will need to go to the app store and download remote desktop.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/zD9C3Us.png" height="80%" width="80%" alt="Remoting In/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In order to use remote desktop simply click "Add PC" (this may be different for Windows) and copy your public IP address from your first virtual machine ( you can find this by searching virtual machine in the search bar and clicking the name of your first virtual machine(in our case that would be VM1) and paste it into the PC name section. Once that is done you can click "add".
 </p>
 <br />
 
