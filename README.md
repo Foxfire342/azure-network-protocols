@@ -93,7 +93,7 @@ In order to use remote desktop simply click "Add PC" (this may be different for 
 <img src="https://i.imgur.com/zGbEkPP.png" height="80%" width="80%" alt="WireShark"/>
 </p>
 <p>
-  Now that we are inside our remote desktop we want to have the ability to analyze our network traffic and fortunately for us, there is a nifty software called Wireshark that will allow us to do this for free. Search for wireshark using the provided Microsoft Edge browser and click on the wireshark.org page. Once on the page click the get started button which will take you to your installer options. Click Windows x64 Installer and start the installation process. 
+  Now that we are inside our remote desktop we want to have the ability to analyze our network traffic and fortunately for us, there is a nifty software called Wireshark that will allow us to do this for free. Search for wireshark using the provided Microsoft Edge browser and click on the wireshark.org page. Once on the page click the "Get started" button which will take you to your installer options. Click Windows x64 Installer and start the installation process. 
 </p>
 <br />
 
