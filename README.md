@@ -170,10 +170,10 @@ Next, let's observe some DHCP traffic. To do that we will need to type in dhcp i
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/xbaIWRT.png" height="80%" width="80%" alt="Remote Desktop Protocol"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The last protocol traffic that we will observe is RDP, otherwise known as remote desktop protocol. To filter the traffic, simply type in "rdp" into the filter ba in Wireshark and press enter. You will notice immediately that there is a lot of traffic occuring on RDP and that is because we are utilizing it to connect to our virtual machine so data is constantly flowing back and forth. 
 </p>
 <br />
 
