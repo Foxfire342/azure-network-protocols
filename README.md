@@ -84,6 +84,7 @@ With the second virtual machine created our initial setup is complete. Our next 
 <p>
 <img src="https://i.imgur.com/zD9C3Us.png" height="80%" width="80%" alt="Remoting In/>
 </p>
+  
 <p>
 In order to use remote desktop simply click "Add PC" (this may be different for Windows) and copy your public IP address from your first virtual machine ( you can find this by searching virtual machine in the search bar and clicking the name of your first virtual machine(in our case that would be VM1) and paste it into the PC name section. Once that is done you can click "add". Then after clicking the add button the remote instance will be added and you can just click again to connect. When you attempt to connect you will be prompted with a window asking for a username and password. For this, simply use the same username and password that you established when you created your first virtual machine. Press continue and you will be taken to your remote desktop.
 </p>
