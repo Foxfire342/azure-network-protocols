@@ -138,7 +138,7 @@ As you can see, after the security rules went into effect, the ping request star
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Secure Shell"/>
+<img src="https://i.imgur.com/IYOKI4D.pn" height="80%" width="80%" alt="Secure Shell"/>
 </p>
 <p>
 Next, let's analyze some SSH ( Secure Shell) traffic. You can filter this traffic by typing ssh into the green bar in Wireshark and hitting enter. In order to generate some network traffic we will have to SSH into our second virtual machine VM2. To do this pull-up Powershell again and type in the command ssh whatever your username is@ and the IP address of your second virtual machine (in our case 10.0.0.5). You will be asked by the Powershell prompt if you want to continue to connect and you will enter in yes. Then you will be prompted for the password for your second virtual machine. Enter your password and you will be connected to your second virtual machine via SSH. ( Note the password won't be visible as you type it but it will still be recorded. Hit enter after you finish typing it in).
