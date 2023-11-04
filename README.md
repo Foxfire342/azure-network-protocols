@@ -173,15 +173,15 @@ Next, let's observe some DHCP traffic. To do that we will need to type in dhcp i
 <img src="https://i.imgur.com/xbaIWRT.png" height="80%" width="80%" alt="Remote Desktop Protocol"/>
 </p>
 <p>
-The last protocol traffic that we will observe is RDP, otherwise known as remote desktop protocol. To filter the traffic, simply type in "rdp" into the filter ba in Wireshark and press enter. You will notice immediately that there is a lot of traffic occuring on RDP and that is because we are utilizing it to connect to our virtual machine so data is constantly flowing back and forth. 
+The last protocol traffic that we will observe is RDP, otherwise known as remote desktop protocol. To filter the traffic, simply type "rdp" into the filter bar in Wireshark and press enter. You will notice immediately that there is a lot of traffic occuring on RDP and that is because we are utilizing it to connect to our virtual machine so data is constantly flowing back and forth. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ik1xyAf.png" height="80%" width="80%" alt="Closing & Summary"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+With that, you have successfully completed this tutorial. Not only did you create and provision two different virtual machines but you were able to download and utilize Wireshark to observe traffic between both virtual machines and multiple protocols. Remember to delete your resource groups once you are done with this tutorial so that you don't incur any large charges in Microsoft Azure. To do this go to the resource group page in Microsoft Azure and click on the resource and click "Delete resource group". 
 </p>
 <br />
 
