@@ -154,10 +154,10 @@ Now that you are officially connected to VM2, type in a couple of Linux commands
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jKDCrDg.png" height="80%" width="80%" alt="DHCP Traffic"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next, let's observe some DHCP traffic. To do that we will need to type in dhcp into the filter bar in Wireshark and hit enter. DHCP stands for Dynamic Host Configuration Protocol and it is responsible for assigning private IP to computers on a network. To generate some DHCP traffic we will type in the command ipconfig/renew which will basically request an IP address for the virtual machine on the network and DHCP server inside your virtual network will reissue the IP address. As you can see from the example above Wireshark displays the request sent out to the DHCP server and the acknowledged reply. Also, Powershell outputs your private IP address after the command is run. 
 </p>
 <br />
 
