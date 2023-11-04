@@ -133,15 +133,15 @@ Now let's demonstrate what would happen if the ping requests that were sent from
 <img src="https://i.imgur.com/ODDK6It.png" height="80%" width="80%" alt="Network Security Group Part2"/>
 </p>
 <p>
-As you can see, after the security rules went into effect, the ping request started timing out in PowerShell and WireShark is now saying that no response is found. The ping requests from VM1 to VM2 have been successfully denied. In order to revert back to alloying ICMP traffic, simply travel back to the network security group page, click on inbound rules, click on the rule that you just created, and change the Action from Deny to Allow. Or alternately you can just delete the security rule.
+As you can see, after the security rules went into effect, the ping request started timing out in PowerShell and WireShark is now saying that no response is found. The ping requests from VM1 to VM2 have been successfully denied. In order to revert back to alloying ICMP traffic, simply travel back to the network security group page, click on inbound rules, click on the rule that you just created, and change the Action from Deny to Allow. Alternatively, you can just delete the security rule.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Secure Shell"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next, let's analyze some SSH ( Secure Shell) traffic. You can filter this traffic by typing ssh into the green bar in Wireshark and hitting enter. In order to generate some network traffic we will have to SSH into our second virtual machine VM2. To do this pull-up Powershell again and type in the command ssh whatever your username is@ and the IP address of your second virtual machine (in our case 10.0.0.5). You will be asked by the Powershell prompt if you want to continue to connect and you will enter in yes. Then you will be prompted for the password for your second virtual machine. Enter your password and you will be connected to your second virtual machine via SSH. ( Note the password won't be visible as you type it but it will still be recorded. Hit enter after you finish typing it in).
 </p>
 <br />
 
