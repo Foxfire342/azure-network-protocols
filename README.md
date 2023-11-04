@@ -141,15 +141,15 @@ As you can see, after the security rules went into effect, the ping request star
 <img src="https://i.imgur.com/IYOKI4D.png" height="80%" width="80%" alt="Secure Shell"/>
 </p>
 <p>
-Next, let's analyze some SSH ( Secure Shell) traffic. You can filter this traffic by typing ssh into the green bar in Wireshark and hitting enter. In order to generate some network traffic we will have to SSH into our second virtual machine VM2. To do this pull-up Powershell again and type in the command ssh whatever your username is@ and the IP address of your second virtual machine (in our case 10.0.0.5). You will be asked by the Powershell prompt if you want to continue to connect and you will enter in yes. Then you will be prompted for the password for your second virtual machine. Enter your password and you will be connected to your second virtual machine via SSH. ( Note the password won't be visible as you type it but it will still be recorded. Hit enter after you finish typing it in).
+Next, let's analyze some SSH ( Secure Shell) traffic. You can filter this traffic by typing ssh into the green bar in Wireshark and hitting enter. In order to generate some network traffic we will have to SSH into our second virtual machine VM2. To do this pull up Powershell again and type in the command ssh whatever your username is@ and the IP address of your second virtual machine (in our case 10.0.0.5). You will be asked by the Powershell prompt if you want to continue to connect and you will enter in yes. Then you will be prompted for the password for your second virtual machine. Enter your password and you will be connected to your second virtual machine via SSH. ( Note the password won't be visible as you type it but it will still be recorded. Hit enter after you finish typing it in).
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/AW59YCA.png" height="80%" width="80%" alt="SSH VM2"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now that you are officially connected to VM2, type in a couple of Linux commands and observe the traffic in Wireshark. For example type in id, ls, pwd, and ls -a into Powershell and observe the corresponding traffic. You will also notice that even typing words into the command line will generate traffic in Wireshark. Once you're done and you want to exit SSH, simply type exit and hit enter and you will return back to the first virtual machine's interface.
 </p>
 <br />
 
