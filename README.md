@@ -122,10 +122,10 @@ Next, let's ping a well-known website like Google.com. To do this we will type p
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Network Security Group"/>
+<img src="https://i.imgur.com/2LUeTJv.png" height="80%" width="80%" alt="Network Security Group"/>
 </p>
 <p>
-Now let's demonstrate what would happen if the ping requests that were sent from our first VM to our second VM were blocked by our second VM's network security group. A network security group contains security rules that can allow or deny inbound and outbound traffic. In order for us to block the pings coming from the first virtual machine we will have to create a security rule in the second VM's network security group that denies ICMP network traffic. 
+Now let's demonstrate what would happen if the ping requests that were sent from our first VM to our second VM were blocked by our second VM's network security group. A network security group contains security rules that can allow or deny inbound and outbound traffic. In order for us to block the pings coming from the first virtual machine we will have to create a security rule in the second VM's network security group that denies ICMP network traffic. To start let's create a continuous ping request to VM2 by typing in the command ping -t 10.0.0.5, the "-t" tells VM1 to send this ping request until we cancel the command. Now let's head back to Microsoft Azure and type in network security groups in the search bar. Once you are on the page, click the network security group that corresponds to your second virtual machine. In our case that would be VM2-nsg. On the next page click "inbound security rules" under settings and then click the "Add" button to add your security rule.
 </p>
 <br />
 
