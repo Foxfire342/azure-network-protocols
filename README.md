@@ -133,7 +133,7 @@ Now let's demonstrate what would happen if the ping requests that were sent from
 <img src="https://i.imgur.com/ODDK6It.png" height="80%" width="80%" alt="Network Security Group Part2"/>
 </p>
 <p>
-As you can see, after the security rules went into effect, the ping request started timing out in PowerShell and WireShark is now saying that no response is found. The ping requests from VM1 to VM2 have been successfully denied. In order to revert back to alloying ICMP traffic, simply travel back to the network security group page, click on inbound rules, click on the rule that you just created, and change the Action from Deny to Allow. 
+As you can see, after the security rules went into effect, the ping request started timing out in PowerShell and WireShark is now saying that no response is found. The ping requests from VM1 to VM2 have been successfully denied. In order to revert back to alloying ICMP traffic, simply travel back to the network security group page, click on inbound rules, click on the rule that you just created, and change the Action from Deny to Allow. Or alternately you can just delete the security rule.
 </p>
 <br />
 
