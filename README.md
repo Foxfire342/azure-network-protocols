@@ -15,7 +15,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Various Command-Line Tools
-- Various Network Protocols (SSH, RDH, DNS, HTTP/S, ICMP)
+- Various Network Protocols (SSH, RDP, DNS, HTTP/S, ICMP)
 - Wireshark (Protocol Analyzer)
 
 <h2>Operating Systems Used </h2>
@@ -28,7 +28,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Create a resource group in Azure that will contain the virtual network and subnet networks
 - Create two virtual machines in the resource group that will run Windows OS and Linux respectively 
 - Download Wire Shark to analyze network traffic between the two virtual machines
-- Filter Wireshark traffic by protocols ICMP, SSH, DHCP, DNS, and HTTP/S and utilize PowerShell commands to observe specific traffic
+- Filter Wireshark traffic by protocols ICMP, SSH, DHCP, DNS, and RDP and utilize PowerShell commands to observe specific traffic
 
 <h2>Actions and Observations</h2>
 
