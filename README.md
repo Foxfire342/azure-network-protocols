@@ -162,10 +162,10 @@ Next, let's observe some DHCP traffic. To do that we will need to type in dhcp i
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="DNS Traffice"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  Now that we have observed some DHCP traffic, let's move on to observing some DNS traffic. DNS stands for Domain Name System and this protocol is responsible for translating website names to IP addresses. We already have some DNS traffic happening because of background processes but we can generate some by using the nslookup command in PowerShell. By typing in "nslookup www.google.com" in Powershell we are telling the computer that we need the IP Address of Google.com. Above is a picture of the response we received back from Powershell for using nslookup on google.com and disney.com. Try searching two different websites yourself and observe the traffic and responses. 
 </p>
 <br />
 
