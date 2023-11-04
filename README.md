@@ -106,10 +106,10 @@ Now that WireShark has been installed, open up the application and click the Eth
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/IPlqCsT.png" height="80%" width="80%" alt="Ping VM2"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Because we are filtering traffic by ICMP, if we use the ping command to ping our second virtual machine, the traffic will appear in the WireShark console because ping utilizes ICMP. But in order to ping our second virtual machine we need to find its private IP address. This can easily be done by going back to your Azure page and heading to the virtual machine's page and selecting your second virtual machine. In our case, our private IP address is 10.0.05, and so we would want to ping 10.0.05. To start pinging our second VM, open up Powershell and type ping 10.0.0.5. Because there is nothing set up in our second virtual machine to block our ping traffic, each of the four ping requests that are sent from our first virtual machine to our second virtual machine is successful.
 </p>
 <br />
 
